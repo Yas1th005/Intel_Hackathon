@@ -6,6 +6,7 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom';
 import FinPlanLandingPage from './Pages/FinPlanLandingPage';
 import PortfolioSide from './Pages/PortfolioSide';
 import { PortfolioMain } from './Pages/PortfolioMain';
+import { LandingPage } from './Pages/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let allRoutes=createBrowserRouter(
@@ -21,6 +22,10 @@ let allRoutes=createBrowserRouter(
     {
       path:"/details/:item",
       element:<PortfolioMain/>
+    },
+    {
+      path:"/land",
+      element:<LandingPage/>
     }
   ]
 )

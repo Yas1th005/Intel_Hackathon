@@ -1,8 +1,7 @@
 import React, { useState,useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { PortfolioData } from './PortfolioData';
-import Buttons from '../components/Buttons';
-import ButtonConclusion from '../components/ButtonConclusion';
+
 
 const ContentBox = (props) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -174,12 +173,12 @@ const ContentBox = (props) => {
         <button 
           onClick={handlePrev}
         >
-          <Buttons side="left"/>
+          {/* <Buttons side="left"/> */}
         </button>
         <button 
           onClick={handleNext}
         >
-          <Buttons side="right"/>
+          {/* <Buttons side="right"/> */}
         </button>
       </div>
       
@@ -196,7 +195,7 @@ const ContentBox = (props) => {
             <br></br>
             <div className="flex justify-center">
             <button onClick={() => openMain(boxContent[activeIndex].StrategyName)}>
-              <ButtonConclusion />
+              {/* <ButtonConclusion /> */}
             </button>
           </div>
 

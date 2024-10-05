@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { Loading } from '../components/Loading';
 
 export const PortfolioMain = () => {
   const { item } = useParams();
@@ -100,7 +99,7 @@ export const PortfolioMain = () => {
       ):(
         (!tables || tables.length === 0) ? (
           <div className="h-[100vh] bg-gradient-to-r from-purple-800 to-blue-500 text-white flex flex-col items-center p-6">
-            <Loading/>
+            {/* <Loading/> */}
           </div>
         ):(
           <div>
