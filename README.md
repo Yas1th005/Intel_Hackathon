@@ -72,6 +72,8 @@ For stock prediction, the user uploads a video containing relevant financial new
 
 Sample output for stock prediction:
 
+![image](https://github.com/user-attachments/assets/a5343aae-8552-46d0-ab99-0d88eccdb8ba)
+![image](https://github.com/user-attachments/assets/cce23e7f-df5c-4fe4-b430-d189ab289d3c)
 
 
 
